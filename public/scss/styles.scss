@@ -5,11 +5,33 @@ html, body {
 	font-size: 16px;
 }
 
+.title {
+	text-decoration: underline;
+}
 
- .title, .input-wrapper, .word-cloud {
- 	text-align: center;
- }
+.title, .input-wrapper, .word-cloud, .twitter-input-wrapper {
+	text-align: center;
+}
 
- .word-cloud, .input-wrapper {
- 	margin: 0 auto;
- }
+.word-cloud, .input-wrapper, .twitter-input-wrapper {
+	margin: 0 auto;
+}
+
+.word-cloud {
+	line-height: 0.9;
+}
+
+.button {
+	.input-wrapper & {
+		background-color: #5bc500;
+		&:hover	{
+			opacity: 0.7;
+		}
+	}
+	.twitter-input-wrapper & {
+		background-color: #1da1f2;
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}

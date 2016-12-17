@@ -4,10 +4,34 @@ html, body {
   font-size: 16px;
 }
 
-.title, .input-wrapper, .word-cloud {
+.title {
+  text-decoration: underline;
+}
+
+.title, .input-wrapper, .word-cloud, .twitter-input-wrapper {
   text-align: center;
 }
 
-.word-cloud, .input-wrapper {
+.word-cloud, .input-wrapper, .twitter-input-wrapper {
   margin: 0 auto;
+}
+
+.word-cloud {
+  line-height: 0.9;
+}
+
+.input-wrapper .button {
+  background-color: #5bc500;
+}
+
+.input-wrapper .button:hover {
+  opacity: 0.7;
+}
+
+.twitter-input-wrapper .button {
+  background-color: #1da1f2;
+}
+
+.twitter-input-wrapper .button:hover {
+  opacity: 0.7;
 }

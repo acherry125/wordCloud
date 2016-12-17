@@ -1,2 +1,0 @@
-This would normally be a favicon.ico file with no .txt extension. This file
-is the 8x8 (or something small look it up) image that shows up in the tab.
